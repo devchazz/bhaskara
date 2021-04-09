@@ -1,0 +1,66 @@
+/*Pag config:*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 0 1%;
+}
+
+/*Texts:*/
+h1 {
+  font-size: 3em;
+}
+h2 {
+  font-size: 2em;
+}
+p {
+  font-size: 1.5em;
+  color: white;
+}
+a {
+  font-size: 1.5em;
+  color: white;
+}
+
+/*Header:*/
+header {
+  padding: 10px 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*Inputs:*/
+input {
+  font-size: 1.2em;
+}
+button {
+  font-size: 1.2em;
+}
+
+/*Containers:*/
+main {
+  border-top: white solid 2px;
+  padding: 20px 0;
+}
+main div {
+  padding: 20px 0;
+}
+#container-operations {
+  border-top: white solid 2px;
+}
+footer {
+  padding: 10px 0;
+  border-top: white solid 2px;
+  font-size: 1.2em;
+}
+
+/*Class configs:*/
+.h-90 {
+  min-height: 90vh;
+}
