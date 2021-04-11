@@ -38,9 +38,13 @@ header {
 /*Inputs:*/
 input {
   font-size: 1.2em;
+  padding: 5px;
+  border-radius: 5px;
 }
 button {
   font-size: 1.2em;
+  padding: 5px;
+  border-radius: 5px;
 }
 
 /*Containers:*/
@@ -48,14 +52,20 @@ main {
   border-top: white solid 2px;
   padding: 20px 0;
 }
-main div {
+.p-20 {
   padding: 20px 0;
 }
 #container-operations {
   border-top: white solid 2px;
 }
+#container-x1-x2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
 footer {
-  padding: 10px 0;
+  padding: 15px 0;
   border-top: white solid 2px;
   font-size: 1.2em;
 }
