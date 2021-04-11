@@ -40,7 +40,7 @@ function bhaskara(a, b, c) {
     let X2result = `
       X2: <br>
       X2: ${-b} - ${Math.sqrt(delta, 2).toFixed(2)} / 2*${a} <br>
-      X2: ${-b - Math.sqrt(delta, 2).toFixed(2)} / ${2*a} <br>
+      X2: ${(-b - Number((Math.sqrt(delta, 2)))).toFixed(2)} / ${2*a} <br>
       X2: ${result2.toFixed(2)}<br><br>
     `
 
