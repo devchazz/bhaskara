@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Miguel 'Chazz' Antunes">
+  
   <title>Online Bhaskara</title>
   
   <link rel="stylesheet" href="css/styles.css">
@@ -17,20 +19,30 @@
       <h1>Online Bhaskara</h1> <a href="https://github.com/devchazz/bhaskara" target="_blank">GitHub</a>
     </header>
     <main>
-      <h2>aX² + bX + c = 0</h2>
+      <h2>aX² + bX + c = 0</h2> 
+      <br>
       <input id="a" type="number" size="4" placeholder="A">
       <input id="b" type="number" size="4" placeholder="B">
       <input id="c" type="number" size="4" placeholder="C">
       <button onclick="solve()">Solve</button>
       <br>
       
-      <div>
+      <div class="p-20">
         <p id="result"> Result will appear here </p>
       </div>
       
-      <div id="container-operations">
-        <p id="operations"> All operations will appear here </p>
-        <p id="final-operations"></p>
+      <div id="container-operations" class="p-20">
+        <div>
+          <p id="deltaOperations"> All operations will appear here </p>
+        </div>
+        <div>
+          <p id="x-operation"></p>
+          <div id="container-x1-x2">
+            <p id="x1-operations"></p>
+            <p id="x2-operations"></p>
+          </div>
+          <p id="x1-x2-results"></p>
+        </div>
       </div>
     </main>
   </div>
