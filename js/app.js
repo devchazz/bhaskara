@@ -44,7 +44,7 @@ function bhaskara(a, b, c) {
       X2: ${result2.toFixed(2)}<br><br>
     `
 
-    let finalResult = `X can be ${result1.toFixed(2)} or ${result2.toFixed(2)} /// X = [ ${result1.toFixed(2)}, ${result2.toFixed(2)} ]`
+    let finalResult = `X can be ${result1.toFixed(2)} or ${result2.toFixed(2)} /// X = { ${result1.toFixed(2)}, ${result2.toFixed(2)} }`
 
     XOperation.innerHTML = Xresult
     X1Operations.innerHTML = X1Result
