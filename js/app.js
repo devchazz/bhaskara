@@ -23,7 +23,7 @@ function bhaskara(a, b, c) {
     XOperation.innerHTML = ''
     X1Operations.innerHTML = ''
     X2Operations.innerHTML = ''
-    X1X2Results.innerHTML = 'Delta é negativo'
+    X1X2Results.innerHTML = 'Delta resulted in a negative value.'
   } else {
     let result1 = (-b + Math.sqrt(delta, 2)) / (2 * a)
     let result2 = (-b - Math.sqrt(delta, 2)) / (2 * a)
