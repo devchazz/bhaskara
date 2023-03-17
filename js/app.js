@@ -19,7 +19,7 @@ function bhaskara(a, b, c) {
   deltaOperations.innerHTML = resultDeltaOperations
 
   if (delta < 0) {
-    result.innerHTML = 'Delta é negativo'
+    result.innerHTML = 'Delta resulted in a negative value.'
     XOperation.innerHTML = ''
     X1Operations.innerHTML = ''
     X2Operations.innerHTML = ''
